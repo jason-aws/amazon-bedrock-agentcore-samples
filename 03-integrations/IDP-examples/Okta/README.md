@@ -40,6 +40,24 @@ This learning path includes practical notebooks that demonstrate different integ
 - Bearer tokens validate user identity on each request
 - Agents remain protected behind authentication layer
 
+### 2. Step by Step Okta Integration for Gateway Auth.ipynb
+
+**Purpose**: Demonstrates using Okta to secure AgentCore Gateway endpoints with User Federation authentication using OAuth 2.0 Authorization Code flow.
+
+**What you'll learn**:
+- Setting up Okta tenant and application configuration
+- Creating AgentCore OAuth2 credential providers
+- Implementing OAuth 2.0 flows for user authentication and delegation
+- Building and deploying agents on AgentCore Runtime with Okta integration
+- Building and deploying an Amazon API Gateway and AWS Lambda to represent a REST API
+- Building and deploying an AgentCore Gateway that transforms the Amazon API Gateway into an MCP (Model Context Protocol) server
+- Managing user sessions
+
+**Key Integration Pattern**:
+- Users must authenticate with Okta before accessing AgentCore Runtime agents and AgentCore Gateway endpoints
+- Bearer tokens validate user identity on each request
+- Agents remain protected behind authentication layer
+
 ## Support and Documentation
 
 - [Okta Developer Documentation](https://developer.okta.com/)
